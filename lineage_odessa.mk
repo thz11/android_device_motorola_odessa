@@ -21,13 +21,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from odessa device
 $(call inherit-product, device/motorola/odessa/device.mk)
 
-# Inherit some common LineageOS stuff.
+# Inherit some common EvolutionX stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Flags
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_DISABLE_EPPE := true
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_USES_MINI_GAPPS := true
+BUILD_SEEDVAULT := false
 
 # Sign Build
 -include vendor/lineage-priv/keys/keys.mk
