@@ -30,6 +30,10 @@ ro.config.dha_th_rate=2.3
 ro.config.sdha_apps_bg_max=32
 ro.config.sdha_apps_bg_min=8
 
+# Blur
+ro.sf.blurs_are_expensive=0
+ro.surface_flinger.supports_background_blur=0
+
 # ZRAM
 ro.zram.mark_idle_delay_mins=60
 ro.zram.first_wb_delay_mins=1440
