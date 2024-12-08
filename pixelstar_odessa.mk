@@ -34,6 +34,7 @@ TARGET_USES_BLUR_RECENT := false
 TARGET_FACE_UNLOCK_SUPPORTED := true
 USE_PIXEL_CHARGER := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
+TARGET_SUPPORTS_PREBUILT_UPDATABLE_APEX := false
 
 # Signing Build
 -include vendor/lineage-priv/keys/keys.mk
