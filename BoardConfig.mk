@@ -24,9 +24,6 @@ TARGET_SCREEN_DENSITY := 420
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/odessa_defconfig
 
-# dolby
--include hardware/motorola/dolby/BoardConfigVendor.mk
-
 # Kernel modules - Audio
 TARGET_MODULE_ALIASES += \
     snd-soc-aw882xx.ko:snd_smartpa_aw882xx.ko
